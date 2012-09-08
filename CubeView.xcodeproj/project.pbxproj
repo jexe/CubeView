@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79D81BCC15FBCAD40091AF80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D81BCB15FBCAD40091AF80 /* UIKit.framework */; };
+		79D81BCE15FBCAD40091AF80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D81BCD15FBCAD40091AF80 /* Foundation.framework */; };
+		79D81BD015FBCAD40091AF80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D81BCF15FBCAD40091AF80 /* CoreGraphics.framework */; };
+		79D81BD615FBCAD40091AF80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79D81BD415FBCAD40091AF80 /* InfoPlist.strings */; };
+		79D81BD815FBCAD50091AF80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D81BD715FBCAD50091AF80 /* main.m */; };
+		79D81BDC15FBCAD50091AF80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D81BDB15FBCAD50091AF80 /* AppDelegate.m */; };
+		79D81BDF15FBCAD50091AF80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D81BDE15FBCAD50091AF80 /* ViewController.m */; };
+		79D81BE215FBCAD50091AF80 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D81BE015FBCAD50091AF80 /* ViewController_iPhone.xib */; };
+		79D81BE515FBCAD50091AF80 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D81BE315FBCAD50091AF80 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79D81BC715FBCAD40091AF80 /* CubeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D81BCB15FBCAD40091AF80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79D81BCD15FBCAD40091AF80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79D81BCF15FBCAD40091AF80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79D81BD315FBCAD40091AF80 /* CubeView-Info.plist */ = {isa = PBXFileReference; path = "CubeView-Info.plist"; sourceTree = "<group>"; };
+		79D81BD515FBCAD40091AF80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79D81BD715FBCAD50091AF80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79D81BD915FBCAD50091AF80 /* CubeView-Prefix.pch */ = {isa = PBXFileReference; path = "CubeView-Prefix.pch"; sourceTree = "<group>"; };
+		79D81BDA15FBCAD50091AF80 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		79D81BDB15FBCAD50091AF80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79D81BDD15FBCAD50091AF80 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		79D81BDE15FBCAD50091AF80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79D81BE115FBCAD50091AF80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		79D81BE415FBCAD50091AF80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79D81BC415FBCAD40091AF80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D81BCC15FBCAD40091AF80 /* UIKit.framework in Frameworks */,
+				79D81BCE15FBCAD40091AF80 /* Foundation.framework in Frameworks */,
+				79D81BD015FBCAD40091AF80 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79D81BBC15FBCAD40091AF80 = {
+			isa = PBXGroup;
+			children = (
+				79D81BD115FBCAD40091AF80 /* CubeView */,
+				79D81BCA15FBCAD40091AF80 /* Frameworks */,
+				79D81BC815FBCAD40091AF80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79D81BC815FBCAD40091AF80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79D81BC715FBCAD40091AF80 /* CubeView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79D81BCA15FBCAD40091AF80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79D81BCB15FBCAD40091AF80 /* UIKit.framework */,
+				79D81BCD15FBCAD40091AF80 /* Foundation.framework */,
+				79D81BCF15FBCAD40091AF80 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79D81BD115FBCAD40091AF80 /* CubeView */ = {
+			isa = PBXGroup;
+			children = (
+				79D81BDA15FBCAD50091AF80 /* AppDelegate.h */,
+				79D81BDB15FBCAD50091AF80 /* AppDelegate.m */,
+				79D81BDD15FBCAD50091AF80 /* ViewController.h */,
+				79D81BDE15FBCAD50091AF80 /* ViewController.m */,
+				79D81BE015FBCAD50091AF80 /* ViewController_iPhone.xib */,
+				79D81BE315FBCAD50091AF80 /* ViewController_iPad.xib */,
+				79D81BD215FBCAD40091AF80 /* Supporting Files */,
+			);
+			path = CubeView;
+			sourceTree = "<group>";
+		};
+		79D81BD215FBCAD40091AF80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79D81BD315FBCAD40091AF80 /* CubeView-Info.plist */,
+				79D81BD415FBCAD40091AF80 /* InfoPlist.strings */,
+				79D81BD715FBCAD50091AF80 /* main.m */,
+				79D81BD915FBCAD50091AF80 /* CubeView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79D81BC615FBCAD40091AF80 /* CubeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D81BE815FBCAD50091AF80 /* Build configuration list for PBXNativeTarget "CubeView" */;
+			buildPhases = (
+				79D81BC315FBCAD40091AF80 /* Sources */,
+				79D81BC415FBCAD40091AF80 /* Frameworks */,
+				79D81BC515FBCAD40091AF80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CubeView;
+			productName = CubeView;
+			productReference = 79D81BC715FBCAD40091AF80 /* CubeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79D81BBE15FBCAD40091AF80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Gilt Groupe";
+			};
+			buildConfigurationList = 79D81BC115FBCAD40091AF80 /* Build configuration list for PBXProject "CubeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79D81BBC15FBCAD40091AF80;
+			productRefGroup = 79D81BC815FBCAD40091AF80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79D81BC615FBCAD40091AF80 /* CubeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79D81BC515FBCAD40091AF80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D81BD615FBCAD40091AF80 /* InfoPlist.strings in Resources */,
+				79D81BE215FBCAD50091AF80 /* ViewController_iPhone.xib in Resources */,
+				79D81BE515FBCAD50091AF80 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79D81BC315FBCAD40091AF80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D81BD815FBCAD50091AF80 /* main.m in Sources */,
+				79D81BDC15FBCAD50091AF80 /* AppDelegate.m in Sources */,
+				79D81BDF15FBCAD50091AF80 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79D81BD415FBCAD40091AF80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D81BD515FBCAD40091AF80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79D81BE015FBCAD50091AF80 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D81BE115FBCAD50091AF80 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		79D81BE315FBCAD50091AF80 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D81BE415FBCAD50091AF80 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79D81BE615FBCAD50091AF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79D81BE715FBCAD50091AF80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79D81BE915FBCAD50091AF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CubeView/CubeView-Prefix.pch";
+				INFOPLIST_FILE = "CubeView/CubeView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79D81BEA15FBCAD50091AF80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CubeView/CubeView-Prefix.pch";
+				INFOPLIST_FILE = "CubeView/CubeView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79D81BC115FBCAD40091AF80 /* Build configuration list for PBXProject "CubeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D81BE615FBCAD50091AF80 /* Debug */,
+				79D81BE715FBCAD50091AF80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D81BE815FBCAD50091AF80 /* Build configuration list for PBXNativeTarget "CubeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D81BE915FBCAD50091AF80 /* Debug */,
+				79D81BEA15FBCAD50091AF80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79D81BBE15FBCAD40091AF80 /* Project object */;
+}
