@@ -7,8 +7,8 @@ CubeView steals touches and physics from UIScrollView, ensuring natural
 iOS-like interactions. It's designed to be very lightweight and easy to
 integrate.
 
-![Screenshot 1](jexe.github.com/CubeView/images/CubeView-1.png)
-![Screenshot 2](jexe.github.com/CubeView/images/CubeView-2.png)
+![Screenshot 1](http://jexe.github.com/CubeView/images/CubeView-1.png)
+![Screenshot 2](http://jexe.github.com/CubeView/images/CubeView-2.png)
 
 CubeViewDelegate
 ================
