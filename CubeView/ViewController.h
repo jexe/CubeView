@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CubeView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<CubeViewDelegate> {
+    CubeView *_masterCubeView;
+}
 
 @end

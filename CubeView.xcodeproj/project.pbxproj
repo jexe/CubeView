@@ -16,6 +16,8 @@
 		79D81BDF15FBCAD50091AF80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D81BDE15FBCAD50091AF80 /* ViewController.m */; };
 		79D81BE215FBCAD50091AF80 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D81BE015FBCAD50091AF80 /* ViewController_iPhone.xib */; };
 		79D81BE515FBCAD50091AF80 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D81BE315FBCAD50091AF80 /* ViewController_iPad.xib */; };
+		79D81BEE15FBCD960091AF80 /* CubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D81BED15FBCD960091AF80 /* CubeView.m */; };
+		79D81BF315FBCEB20091AF80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D81BF215FBCEB20091AF80 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +25,19 @@
 		79D81BCB15FBCAD40091AF80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		79D81BCD15FBCAD40091AF80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		79D81BCF15FBCAD40091AF80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		79D81BD315FBCAD40091AF80 /* CubeView-Info.plist */ = {isa = PBXFileReference; path = "CubeView-Info.plist"; sourceTree = "<group>"; };
+		79D81BD315FBCAD40091AF80 /* CubeView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CubeView-Info.plist"; sourceTree = "<group>"; };
 		79D81BD515FBCAD40091AF80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79D81BD715FBCAD50091AF80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		79D81BD915FBCAD50091AF80 /* CubeView-Prefix.pch */ = {isa = PBXFileReference; path = "CubeView-Prefix.pch"; sourceTree = "<group>"; };
-		79D81BDA15FBCAD50091AF80 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		79D81BD915FBCAD50091AF80 /* CubeView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CubeView-Prefix.pch"; sourceTree = "<group>"; };
+		79D81BDA15FBCAD50091AF80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79D81BDB15FBCAD50091AF80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		79D81BDD15FBCAD50091AF80 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		79D81BDD15FBCAD50091AF80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		79D81BDE15FBCAD50091AF80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		79D81BE115FBCAD50091AF80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		79D81BE415FBCAD50091AF80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		79D81BEC15FBCD960091AF80 /* CubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeView.h; sourceTree = "<group>"; };
+		79D81BED15FBCD960091AF80 /* CubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeView.m; sourceTree = "<group>"; };
+		79D81BF215FBCEB20091AF80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D81BF315FBCEB20091AF80 /* QuartzCore.framework in Frameworks */,
 				79D81BCC15FBCAD40091AF80 /* UIKit.framework in Frameworks */,
 				79D81BCE15FBCAD40091AF80 /* Foundation.framework in Frameworks */,
 				79D81BD015FBCAD40091AF80 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +75,7 @@
 		79D81BCA15FBCAD40091AF80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79D81BF215FBCEB20091AF80 /* QuartzCore.framework */,
 				79D81BCB15FBCAD40091AF80 /* UIKit.framework */,
 				79D81BCD15FBCAD40091AF80 /* Foundation.framework */,
 				79D81BCF15FBCAD40091AF80 /* CoreGraphics.framework */,
@@ -79,6 +86,7 @@
 		79D81BD115FBCAD40091AF80 /* CubeView */ = {
 			isa = PBXGroup;
 			children = (
+				79D81BEB15FBCD960091AF80 /* Views */,
 				79D81BDA15FBCAD50091AF80 /* AppDelegate.h */,
 				79D81BDB15FBCAD50091AF80 /* AppDelegate.m */,
 				79D81BDD15FBCAD50091AF80 /* ViewController.h */,
@@ -99,6 +107,15 @@
 				79D81BD915FBCAD50091AF80 /* CubeView-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79D81BEB15FBCD960091AF80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79D81BEC15FBCD960091AF80 /* CubeView.h */,
+				79D81BED15FBCD960091AF80 /* CubeView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +185,7 @@
 				79D81BD815FBCAD50091AF80 /* main.m in Sources */,
 				79D81BDC15FBCAD50091AF80 /* AppDelegate.m in Sources */,
 				79D81BDF15FBCAD50091AF80 /* ViewController.m in Sources */,
+				79D81BEE15FBCD960091AF80 /* CubeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
